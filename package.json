@@ -1,0 +1,25 @@
+{
+  "name": "kafka",
+  "version": "1.0.1",
+  "description": "containerized kafka implementation.",
+  "main": "index.js",
+  "scripts": {
+    "zookeeper" : "node src/zookeeper.js",
+    "produce": "node src/producer.js",
+    "consume": "node src/consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Docker-Exp-Project/Kafka.git"
+  },
+  "author": "Itachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Docker-Exp-Project/Kafka/issues"
+  },
+  "homepage": "https://github.com/Docker-Exp-Project/Kafka#readme",
+  "dependencies": {
+    "kafkajs": "^2.0.2"
+  }
+}
